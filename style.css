@@ -1,0 +1,134 @@
+body {
+  font-family: "SolaimanLipi", Arial, sans-serif !important;
+}
+.imam {
+  width: 100%;
+}
+
+/* Main Section Styles */
+
+.main-section {
+  position: relative;
+
+  background: url("https://lh3.googleusercontent.com/p/AF1QipPyHaRoKJV1UEDwus0Gxixc4AeNsixRlhqUvvz5=s1566-w786-h1566")
+    no-repeat center center fixed;
+
+  background-size: cover;
+
+  height: 100vh; /* Adjust height as needed */
+}
+
+.overlay {
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5); /* Adjust the overlay opacity as needed */
+}
+
+.text-container {
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+
+  color: #fff; /* Text color */
+}
+.salam {
+  font-family: "Amiri", serif;
+}
+
+.mosque-logo {
+  width: 150px; /* Adjust logo size */
+
+  height: 150px; /* Adjust logo size */
+
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px; /* Font size for heading */
+
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px; /* Font size for paragraph */
+}
+
+/* Additional Styles for Islamic Design and Colors */
+
+/* Add your custom styles for Islamic design and colors here */
+#services {
+  background-color: #2e8b57; /* Islamic green color */
+
+  color: #fff;
+
+  padding: 20px;
+}
+
+/* Style the prayer times table */
+table tr td,
+table tr th {
+  background-color: rgba(255, 255, 255, 0) !important;
+  color: #fff;
+}
+
+.prayer-times {
+  background-color: rgba(255, 255, 255, 0.2);
+
+  border-radius: 10px;
+
+  padding: 20px;
+}
+
+/* Style headings */
+
+h2,
+table {
+  color: #fff;
+}
+.facility-box {
+  background-color: #4caf50; /* Green color */
+
+  color: #fff; /* Text color */
+
+  text-align: center;
+
+  padding: 20px;
+  margin: 10px;
+
+  padding-top: 60px;
+  width: 95%;
+  height: 200px;
+  border-radius: 4%;
+}
+
+.facility-icon {
+  font-size: 40px;
+}
+
+.rounded-box {
+  background-color: #4caf50;
+
+  color: #fff;
+
+  border-radius: 5%;
+
+  padding: 15px;
+}
+
+.facility-title {
+  margin-top: 10px;
+}
